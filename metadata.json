@@ -1,0 +1,6 @@
+{
+  "name": "farhee intelligent 2.0",
+  "description": "Next-generation multilingual AI chatbot with image & music generation, enterprise document exports (PDF, PPTX, XLSX, DOCX), encrypted vault storage, offline sync, and role-based access control.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
