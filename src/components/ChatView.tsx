@@ -601,9 +601,9 @@ export const ChatView: React.FC<ChatViewProps> = ({
                 <span className="text-xs font-bold text-slate-900 truncate">
                   {sessionTitle}
                 </span>
-                <span className="inline-flex items-center gap-1 rounded-full bg-sky-50 px-2 py-0.5 text-[10px] font-semibold text-sky-700 border border-sky-200/60 shrink-0">
-                  <Sparkles className="h-2.5 w-2.5 text-sky-600" />
-                  Gemini 3.8 Flash
+                <span className="inline-flex items-center gap-1 rounded-full bg-violet-50 px-2 py-0.5 text-[10px] font-semibold text-violet-700 border border-violet-200/60 shrink-0">
+                  <Sparkles className="h-2.5 w-2.5 text-violet-600" />
+                  Ollama AI (beam)
                 </span>
               </div>
               <div className="flex items-center gap-1.5 text-[10px] text-slate-400">
@@ -1070,8 +1070,8 @@ export const ChatView: React.FC<ChatViewProps> = ({
                                 farhee intelligent 2.0
                               </span>
                               <span className="text-slate-300">•</span>
-                              <span className="text-[11px] font-mono text-sky-600 bg-sky-50 px-1.5 py-0.2 rounded">
-                                gemini-3.8-flash
+                              <span className="text-[11px] font-mono text-violet-600 bg-violet-50 px-1.5 py-0.2 rounded">
+                                {msg.model || 'beam'}
                               </span>
                             </div>
 

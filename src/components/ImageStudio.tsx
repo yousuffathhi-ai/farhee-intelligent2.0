@@ -375,7 +375,7 @@ export const ImageStudio: React.FC<ImageStudioProps> = ({
               </div>
               <div>
                 <h2 className="text-sm font-bold text-slate-900">Neural Image Studio</h2>
-                <p className="text-xs text-slate-500">Gemini 3.1 Flash & Visual Editor</p>
+                <p className="text-xs text-slate-500">Neural Studio & Visual Editor</p>
               </div>
             </div>
             

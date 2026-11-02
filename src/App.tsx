@@ -339,6 +339,7 @@ export default function App() {
         language: currentLanguage,
         isEncrypted: true,
         cipherPreview: botEncPreview,
+        model: data.model || 'beam',
       };
 
       const finalMessages = [...updatedMessages, botMsg];

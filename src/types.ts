@@ -44,6 +44,7 @@ export interface ChatMessage {
   iv?: string;
   cipherPreview?: string;
   attachments?: MessageAttachment[];
+  model?: string;
 }
 
 export interface ConversationSession {
